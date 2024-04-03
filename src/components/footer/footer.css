@@ -3,7 +3,6 @@
     color: var(--color-white);
     padding: 10px 0;
     font-size: 1.2rem;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,23 +89,15 @@
     color: #3b5998;
 }
 
-.fa-twitter {
-    color: #1da1f2;
+
+.fa-TikTok {
+    color: #1307c2;
 }
 
 .fa-instagram {
     color: #e4405f;
 }
 
-.footer-text {
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 10px;
-    font-size: 0.8rem;
-    opacity: 0.5;
-}
 
 @media screen and (max-width: 768px) {
     .footer-row {
@@ -128,7 +119,6 @@
         justify-content: center;
     }
 
-    /* Justera fontstorleken på mindre skärmar */
     .site-footer, .footer-column h2, .footer-column p, .footer-column ul li, .footer-text {
         font-size: 0.7rem;
     }

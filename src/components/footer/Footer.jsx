@@ -1,45 +1,38 @@
 import React from 'react';
 import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF,faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="footer-container">
         <div className="footer-column-h2 footer-column-header">
-          <h2>Footer headline</h2>
-          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta doloribus aliquid molestiae rem, minima illo totam sequi? Culpa quia officiis minima doloremque velit dolore consequuntur aspernatur dolorem non praesentium!</p>
+          <h2>Kājiene</h2>
+          <p >Vārds “ilgtspējiba” kļūst arvien populārāks un plaši izmantojams, kad runa iet par informācijas tehnoloģiju produktu izstrādi, kurus specialisti mēģina pielagot pašreizēji eksistejošiem normām un standartiem, kā arī pasūtītāju vajadzībām, cenšoties arī neapdraudēt nākamo paaudžu iespējas apmierināt savas vajadzīas. (T.Frick, 2008.gada augusts). </p>
         </div>
         <div className="footer-row">
           <div className="footer-sub-container">
             <div className="footer-column footer-column-contact">
-              <h2>Contact</h2>
-              <p>123 45 Stockholm</p>
-              <p>08-123 45 67</p>
-              <p>info@example.com</p>
+              <h2>Kontakti</h2>
+              <p>Rīga, Āzenes 12</p>
+              <p>+37120222146</p>
+              <p>daniils.buinickis@edu.rtu.lv</p>
             </div>
             <div className="footer-column footer-column-links">
-              <h2>Links</h2>
-              <ul>
-                <li><a href="#">Front page</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+              <h2>Saites</h2>
+                <li><a href="#">Atgriezties sākumā</a></li>
             </div>
             <div className="footer-column footer-column-social">
               <h2>Social media</h2>
               <ul className="social-icons">
-                <li><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                <li><a href="https://www.facebook.com/share/k57cTXcgx54yd2v4/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                <li><a href="https://www.tiktok.com/@danik_bd?_t=8lDjGH5U15c&_r=1"><FontAwesomeIcon icon={faTiktok} /></a></li>
+                <li><a href="https://www.instagram.com/buindans?igsh=M2I2anNzbTU3amcw"><FontAwesomeIcon icon={faInstagram} /></a></li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer-text">
-        © 2023 Sustainable Webpage. All Rights Reserved.
       </div>
     </footer>
   );
