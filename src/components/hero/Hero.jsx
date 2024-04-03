@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './hero.css';
-import Lake from '../../assets/lake-unsplash.webp';
-import Sea from '../../assets/sea-unsplash.webp';
-import Nature from '../../assets/nature-unsplash.webp';
+import Burti from '../../assets/Burti.webp';
+import Vestibils from '../../assets/Vestibils.webp';
+import Kampuss from '../../assets/Kampuss.webp';
 import Svg from '../../assets/static-svg.svg';
 
 function Hero() {
@@ -17,6 +17,8 @@ function Hero() {
         setShowPopup(false);
     };
 
+    const images = [Burti, Vestibils, Kampuss];
+    
     return (
         <div className="hero-container">
             <div className="hero-heading">
@@ -33,33 +35,18 @@ function Hero() {
                 </div>
             </div>
             <div className="hero-gallery">
-                <img
-                    src={Lake}
-                    alt="First Image"
-                    className={activeIndex === 0 ? "active" : ""}
-                    loading="lazy"
-                    srcSet={`${Lake} 400w, ${Lake} 800w, ${Lake} 1200w`}
-                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
-                />
-                <img
-                    src={Sea}
-                    alt="Second Image"
-                    className={activeIndex === 1 ? "active" : ""}
-                    loading="lazy"
-                    srcSet={`${Sea} 400w, ${Sea} 800w, ${Sea} 1200w`}
-                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
-                />
-                <img
-                    src={Nature}
-                    alt="Third Image"
-                    className={activeIndex === 2 ? "active" : ""}
-                    loading="lazy"
-                    srcSet={`${Nature} 400w, ${Nature} 800w, ${Nature} 1200w`}
-                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
-                />
+                {images.map((image, index) => (
+                    <img
+                        key={index}
+                        src={image}
+                        alt={`Slide ${index}`}
+                        className={activeIndex === index ? "active" : ""}
+                        loading="lazy"
+                    />
+                ))}
                 <button
                     className="next-button"
-                    onClick={() => setActiveIndex((activeIndex + 1) % 3)}
+                    onClick={() => setActiveIndex((activeIndex + 1) % images.length)}
                 >
                     Next
                 </button>
