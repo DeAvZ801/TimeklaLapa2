@@ -1,47 +1,25 @@
-.large-img__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    margin-bottom: 2rem;
+.video__container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 8px; /* Optional rounded corners */
 }
 
-.video-title {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    color: var(--color-white);
-}
-
-.video-text {
-    bottom: 15%;
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    color: var(--color-white);
-    width: 75%;
-}
-
-.large-img__container img {
-    max-width: 100%;
+video {
+    width: 100%;
     height: auto;
 }
 
-@media (max-width: 768px) {
-    .large-img__container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 1rem;
-    }
-
-    .large-img__container video {
-        max-width: 100%;
-        margin-bottom: 0;
-    }
-
-    .video-text {
-        display: none;
-    }
+.video-message {
+    position: absolute;
+    top: 10px; /* Adjust the value as needed */
+    left: 300px; /* Adjust the value as needed */
+    color: white; /* The text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional rounded corners */
+    font-size: 0.9em; /* Adjust the font size as needed */
+    z-index: 10; /* Ensure the message is above the video */
 }

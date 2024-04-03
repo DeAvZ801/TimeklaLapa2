@@ -1,5 +1,5 @@
 import React from "react";
-import RTUImage from "../../assets/RTU.webp"; // Ensure this path is correct
+import RTUImage from "../../assets/RTU.webp"; 
 import "./content.css";
 
 function Content() {
@@ -21,7 +21,7 @@ function Content() {
                         alt="RTU - Rīgas Tehniskā universitāte"
                         loading="lazy"
                     />
-                    <figcaption>Rīgas Tehniskā universitāte - viens no vadošajiem tehniskajiem augstskolām Baltijā.</figcaption>
+                    <figcaption>Fails tika saspiests ar cloudconvert.com</figcaption>
                 </figure>
             </div>
         </div>

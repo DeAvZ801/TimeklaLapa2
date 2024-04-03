@@ -21,15 +21,13 @@ const Footer = () => {
             </div>
             <div className="footer-column footer-column-links">
               <h2>Saites</h2>
-                <li><a href="#">Atgriezties sākumā</a></li>
-            </div>
-            <div className="footer-column footer-column-social">
-              <h2>Social media</h2>
-              <ul className="social-icons">
+
+                <ul className="social-icons">
                 <li><a href="https://www.facebook.com/share/k57cTXcgx54yd2v4/"><FontAwesomeIcon icon={faFacebookF} /></a></li>
                 <li><a href="https://www.tiktok.com/@danik_bd?_t=8lDjGH5U15c&_r=1"><FontAwesomeIcon icon={faTiktok} /></a></li>
                 <li><a href="https://www.instagram.com/buindans?igsh=M2I2anNzbTU3amcw"><FontAwesomeIcon icon={faInstagram} /></a></li>
-              </ul>
+                </ul>
+                <li><a href="#">Atgriezties sākumā</a></li>
             </div>
           </div>
         </div>

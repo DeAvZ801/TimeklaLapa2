@@ -1,33 +1,23 @@
 import React from "react";
 import "./video.css";
-import LakeVideo from "../../assets/pexels-video.mp4";
+import RTUVideo from "../../assets/rtuvid.mp4"; // Make sure this path is correct
 
 function Video() {
     return (
-        <div>
-            <div className="large-img__container">
-                <h1 className="video-title">Webpage 2</h1>
-                <div className="video-container">
-                    <video
-                        src={LakeVideo}
-                        controls
-                        muted
-                        width="100%"
-                        height="auto"
-                        loading="lazy"
-                    >
-                        <source
-                            src={LakeVideo}
-                            type="video/mp4"
-                            media="(min-width: 1024px)"
-                        />
-                        <source
-                            src={`${LakeVideo}?sd`}
-                            type="video/mp4"
-                            media="(max-width: 1023px)"
-                        />
-                    </video>
-                </div>
+        <div className="video__container">
+            <video
+                src={RTUVideo}
+                controls
+                muted
+                width="100%"
+                height="auto"
+                loading="lazy"
+            >
+                <source src={RTUVideo} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <div className="video-message">
+                Skaņa tika noņemta un video saspiests ar palīgrīkiem.
             </div>
         </div>
     );
