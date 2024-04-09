@@ -1,7 +1,7 @@
-import Nav from './components/nav/Nav'
+import Header from './components/Galvene/Galvene'
 import Content from './components/content/Content'
-import Video from './components/video/Video'
-import Footer from './components/footer/Footer'
+import Video from './components/RTUvid/Video'
+import Footer from './components/Kajiene/Kajiene'
 import Hero from './components/hero/Hero'
 import Information from './components/information/Information'
 import Columns from './components/columns/Columns'
@@ -10,7 +10,7 @@ import Image from './components/image/Image'
 function App() {
     return (
         <>
-            <Nav />
+            <Header />
             <Video />
             <Content />
             <Hero />

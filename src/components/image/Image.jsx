@@ -9,7 +9,7 @@ function Image() {
             <img
                 id="image"
                 src={Lake}
-                alt="Example image"
+                alt="Lake surrounded by mountains"
                 style={{ width: '100%', height: 'auto' }}
                 loading="lazy"
                 srcSet={`${Lake} 400w, ${Lake} 800w, ${Lake} 1200w`}

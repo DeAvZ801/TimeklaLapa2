@@ -1,0 +1,25 @@
+.video__container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-message {
+    position: absolute;
+    top: 10px; /* Adjust the value as needed */
+    left: 300px; /* Adjust the value as needed */
+    color: white; /* The text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional rounded corners */
+    font-size: 0.9em; /* Adjust the font size as needed */
+    z-index: 10; /* Ensure the message is above the video */
+}
