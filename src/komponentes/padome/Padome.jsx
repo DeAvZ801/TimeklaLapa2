@@ -1,11 +1,11 @@
 import React from 'react';
-import './informacija.css';
+import './padome.css';
 import Talis from '../../media/juhnatalis.webp';
 import Gatis from '../../media/gatisbazbauers.webp';
 import Elina from '../../media/elinagailesarkane.webp';
 import Arturs from '../../media/arturszeps.webp';
 
-function Informacija() {
+function Padome() {
     const googleMapsLink = "https://www.google.com/maps/place/%C4%B6%C4%ABpsalas+iela+6A,+Kurzemes+rajons,+R%C4%ABga,+LV-1048/@56.9529807,24.0792434,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfe0ef923151:0xe9e52c00cc1a522c!8m2!3d56.9529807!4d24.0814321";
 
     return (
@@ -49,4 +49,4 @@ function Informacija() {
     );
 }
 
-export default Informacija;
+export default Padome;

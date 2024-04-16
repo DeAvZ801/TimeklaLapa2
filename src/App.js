@@ -3,7 +3,7 @@ import Saturs from './komponentes/saturs/Saturs'
 import Video from './komponentes/RTUvid/Video'
 import Kajiene from './komponentes/kajiene/Kajiene'
 import Nakamais from './komponentes/nakamais/Nakamais'
-import Informacija from './komponentes/informacija/Informacija'
+import Padome from './komponentes/padome/Padome'
 import Kolonnas from './komponentes/kolonnas/Kolonnas'
 import Attels from './komponentes/attels/Attels'
 
@@ -12,7 +12,7 @@ function App() {
         <>  <Header />
             <Nakamais/>
             <Saturs />
-            <Informacija />            
+            <Padome />            
             <Video />
             <Attels />            
             <Kolonnas />
