@@ -1,16 +1,13 @@
 import React from 'react'
 import './galvene.css'
 
-const Nav = () => {
+const Galvene = () => {
     return (
         <div>
             <div className="nav__above">
                 <p>Īlgtspējīga energoefektīva tīmekļa lapa</p>
             </div>
-            <nav>
-            </nav>
         </div>
     );
 };
-
-export default Nav;
+export default Galvene;

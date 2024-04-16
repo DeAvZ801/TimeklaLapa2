@@ -3,7 +3,7 @@ import './kajiene.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF,faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => {
+const Kajiene = () => {
   return (
     <footer className="site-footer">
       <div className="footer-container">
@@ -36,4 +36,4 @@ const Footer = () => {
   );
 }
 
-export default Footer;
+export default Kajiene;

@@ -1,7 +1,6 @@
 import React from "react";
 import "./video.css";
-import RTUVideo from "../../assets/rtuvid.mp4"; // Make sure this path is correct
-
+import RTUVideo from "../../assets/rtuvid.mp4";
 function Video() {
     return (
         <div className="video__container">
@@ -14,7 +13,7 @@ function Video() {
                 loading="lazy"
             >
                 <source src={RTUVideo} type="video/mp4" />
-                Your browser does not support the video tag.
+                Jūsu pārlūkprogramma neatbalsta video tagu.
             </video>
             <div className="video-message">
                 Skaņa tika noņemta un video saspiests ar palīgrīkiem.
@@ -22,5 +21,4 @@ function Video() {
         </div>
     );
 }
-
 export default Video;

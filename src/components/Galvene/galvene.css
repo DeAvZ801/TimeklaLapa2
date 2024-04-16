@@ -5,36 +5,5 @@
     justify-content: center;
     gap: 0.8rem;
     background-color: var(--color-primary-variant);
-}
-
-nav {
-    background: linear-gradient(to right, var(--color-white), var(--color-primary-light));
-    width: 100%;
-    padding: 0.7rem 1.7rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-nav a {
-    padding: 0.9rem;
-    color: var(--color-black);
-    font-size: 1.1rem;
-}
-
-.nav-links {
-    display: flex;
-}
-
-nav a {
-    margin-left: 1rem;
-}
-
-nav a:hover {
-    color: var(--color-primary);
-}
-
-nav img {
-    width: 100px;
+    color: var(--color-primary-light);
 }

@@ -1,0 +1,7 @@
+.content__container {background-color: #121212; color: #E0E0E0; padding: 20px;}
+.flex__container {display: flex;flex-wrap: wrap;gap: 20px;align-items: center;}
+.text__container, .image__container {flex: 1 1 45%; }
+h3 {color: #FFFFFF; }
+.image__container img {max-width: 30%; height: auto; border-radius: 8px; display: block;margin: 0 auto; }
+figure {margin: 0; text-align: center;}
+figcaption {color: #CCCCCC; margin-top: 10px; font-size: 14px; }

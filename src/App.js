@@ -1,23 +1,23 @@
-import Header from './components/Galvene/Galvene'
-import Content from './components/content/Content'
+import Header from './components/galvene/Galvene'
+import Saturs from './components/saturs/Saturs'
 import Video from './components/RTUvid/Video'
-import Footer from './components/Kajiene/Kajiene'
-import Next from './components/next/Next'
-import Information from './components/information/Information'
-import Columns from './components/columns/Columns'
-import Image from './components/image/Image'
+import Kajiene from './components/kajiene/Kajiene'
+import Nakamais from './components/nakamais/Nakamais'
+import Informacija from './components/informacija/Informacija'
+import Kolonnas from './components/kolonnas/Kolonnas'
+import Attels from './components/attels/Attels'
 
 function App() {
     return (
         <>
             <Header />
             <Video />
-            <Content />
-            <Next/>
-            <Information />
-            <Columns />
-            <Image />
-            <Footer />
+            <Saturs />
+            <Nakamais/>
+            <Informacija />
+            <Kolonnas />
+            <Attels />
+            <Kajiene />
         </>
     );
 }

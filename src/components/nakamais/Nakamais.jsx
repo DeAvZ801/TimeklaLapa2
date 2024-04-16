@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './next.css';
+import './nakamais.css';
 import Burti from '../../assets/Burti.webp';
 import Vestibils from '../../assets/Vestibils.webp';
 import Kampuss from '../../assets/Kampuss.webp';
 
-function Next() {
+function Nakamais() {
     const [activeIndex, setActiveIndex] = useState(0);
     const images = [Burti, Vestibils, Kampuss];
     
@@ -33,4 +33,4 @@ function Next() {
     );
 }
 
-export default Next;
+export default Nakamais;
