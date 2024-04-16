@@ -8,8 +8,6 @@ const Nav = () => {
                 <p>Īlgtspējīga energoefektīva tīmekļa lapa</p>
             </div>
             <nav>
-                
-
             </nav>
         </div>
     );
