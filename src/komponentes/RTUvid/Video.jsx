@@ -1,6 +1,6 @@
 import React from "react";
 import "./video.css";
-import RTUVideo from "../../assets/rtuvid.mp4";
+import RTUVideo from "../../media/rtuvid.mp4";
 function Video() {
     return (
         <div className="video__container">

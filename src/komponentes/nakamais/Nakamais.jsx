@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './nakamais.css';
-import Burti from '../../assets/Burti.webp';
-import Vestibils from '../../assets/Vestibils.webp';
-import Kampuss from '../../assets/Kampuss.webp';
+import Burti from '../../media/Burti.webp';
+import Vestibils from '../../media/Vestibils.webp';
+import Kampuss from '../../media/Kampuss.webp';
 
 function Nakamais() {
     const [activeIndex, setActiveIndex] = useState(0);

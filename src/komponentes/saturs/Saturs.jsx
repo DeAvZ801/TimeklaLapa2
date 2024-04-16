@@ -1,5 +1,5 @@
 import React from "react";
-import RTUImage from "../../assets/RTU.webp"; 
+import RTUImage from "../../media/RTU.webp"; 
 import "./saturs.css";
 
 function Saturs() {
