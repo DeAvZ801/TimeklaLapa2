@@ -9,14 +9,13 @@ import Attels from './komponentes/attels/Attels'
 
 function App() {
     return (
-        <>
-            <Header />
-            <Video />
+        <>  <Header />
             <Nakamais/>
             <Saturs />
-            <Informacija />
+            <Informacija />            
+            <Video />
+            <Attels />            
             <Kolonnas />
-            <Attels />
             <Kajiene />
         </>
     );

@@ -10,7 +10,7 @@ function Informacija() {
 
     return (
         <div className="information-container">
-            <h2>Rektora padome</h2>
+            <h3>Rektora padome</h3>
             <div className="person-container">
                 <div className="person">
                     <img src={Talis} alt="Talis Juhna" />

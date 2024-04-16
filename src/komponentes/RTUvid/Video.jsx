@@ -16,7 +16,7 @@ function Video() {
                 Jūsu pārlūkprogramma neatbalsta video tagu.
             </video>
             <div className="video-message">
-                Skaņa tika noņemta un video saspiests ar palīgrīkiem.
+            <a href="https://www.freeconvert.com/video-compressor" target="_blank" rel="noopener noreferrer">Videoklips tika saspiests ar freeconvert.com</a>
             </div>
         </div>
     );
