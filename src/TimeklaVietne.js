@@ -1,13 +1,13 @@
 import Galvene from './komponentes/galvene/Galvene'
-import Saturs from './komponentes/saturs/Saturs'
-import RTUvid from './komponentes/RTUvid/Rtuvid'
-import Kajiene from './komponentes/kajiene/Kajiene'
 import Nakamais from './komponentes/nakamais/Nakamais'
+import Saturs from './komponentes/saturs/Saturs'
 import Padome from './komponentes/padome/Padome'
+import RTUvid from './komponentes/RTUvid/Rtuvid'
 import Kolonnas from './komponentes/kolonnas/Kolonnas'
 import Attels from './komponentes/attels/Attels'
+import Kajiene from './komponentes/kajiene/Kajiene'
 
-function App() {
+function TimeklaVietne() {
     return (
         <>  <Galvene />
             <Nakamais/>
@@ -21,4 +21,4 @@ function App() {
     );
 }
 
-export default App;
+export default TimeklaVietne;
