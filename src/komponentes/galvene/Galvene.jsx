@@ -4,7 +4,7 @@ import './galvene.css'
 const Galvene = () => {
     return (
         <div>
-            <div className="nav__above">
+            <div className="galvene">
                 <p>Īlgtspējīga energoefektīva tīmekļa lapa</p>
             </div>
         </div>

@@ -1,9 +1,1 @@
-.nav__above {
-    width: 100%;
-    padding: 0.7rem 1.7rem;
-    display: flex;
-    justify-content: center;
-    gap: 0.8rem;
-    background-color: var(--color-primary-variant);
-    color: var(--color-primary-light);
-}
+.galvene{width:100%;padding:.7rem 1.7rem;display:flex;justify-content:center;gap:.8rem;background-color:var(--color-primary-variant);color:var(--color-primary-light)}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./video.css";
+import "./rtuvid.css";
 import RTUVideo from "../../media/rtuvid.mp4";
 function Video() {
     return (

@@ -3,11 +3,11 @@ import './kolonnas.css';
 import SvgIcon from '../../media/svg.svg';
 
 function Kolonnas() {
-    const [activeColumn, setActiveColumn] = useState(null);
+    const [activekolonna, setActivekolonna] = useState(null);
 
-    const toggleColumn = (column) => {
+    const togglekolonna = (kolonna) => {
 
-        setActiveColumn(activeColumn === column ? null : column);
+        setActivekolonna(activekolonna === kolonna ? null : kolonna);
     };
 
     return (
@@ -18,28 +18,28 @@ function Kolonnas() {
                 izstrādes koncepcijas kuru realizācija un analīze palīdzēs izstrādāt un izpētīt ilgtspējīgas un dabai draudzīgas digitālās
                 platformas.
             </p>
-            <div className="columns">
-                {[1, 2, 3].map((column) => (
-                    <div key={column} className="column">
-                        <img src={SvgIcon} alt={`Ikona kolonnai ${column}`} className="column__icon" />
-                        <h3 className="column__title">
-                            {column === 1
+            <div className="kolonnas">
+                {[1, 2, 3].map((kolonna) => (
+                    <div key={kolonna} className="kolonna">
+                        <img src={SvgIcon} alt={`Ikona kolonnai ${kolonna}`} className="kolonna__icon" />
+                        <h3 className="kolonna__title">
+                            {kolonna === 1
                                 ? "Navigācija vietnē"
-                                : column === 2
+                                : kolonna === 2
                                 ? "Lietotāja pieredze"
                                 : "Optimizācija un efektivitāte"}
                         </h3>
-                        {activeColumn === column && (
-                            <p className="column__text">
-                                {column === 1
+                        {activekolonna === kolonna && (
+                            <p className="kolonna__text">
+                                {kolonna === 1
                                     ? "Ilgtspējīgās tīmekļa izstrādes pamatā ir tīmekļa dizains, kas no pirmā acu uzmetiena neko ļaunu nespēj izdarīt dabai, bet tas ir cieši saistīts ar enerģijas milzīgu patēriņu."
-                                    : column === 2
+                                    : kolonna === 2
                                     ? "Mūsdienās tīmekļa izstrādātājiem ir plašas iespējas dinamisko un visādo vizuālo efektu izmantošanai, kas veicina efektīvāku un dabai draudzīgāku tieši tīmekļa izstrādi."
                                     : "Optimizācija un efektivitāte ir svarīgi aspekti ilgtspējīgā tīmekļa izstrādē, veicinot mazāku datu apjomu pārraidi un zemāku enerģijas patēriņu."}
                             </p>
                         )}
-                        <button className="column__button" onClick={() => toggleColumn(column)}>
-                            {activeColumn === column ? 'Aizvērt Informāciju' : `Parādīt Informāciju`}
+                        <button className="kolonna__button" onClick={() => togglekolonna(kolonna)}>
+                            {activekolonna === kolonna ? 'Aizvērt Informāciju' : `Parādīt Informāciju`}
                         </button>
                     </div>
                 ))}

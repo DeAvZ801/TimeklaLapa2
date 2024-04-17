@@ -1,0 +1,1 @@
+.video__container,video{height:100vh;width:100%}.video__container{position:relative}video{object-fit:cover}.video-message{position:absolute;bottom:0;width:100%;text-align:center;color:var(--color-white);background-color:var(--color-primary-variant);padding:10px}

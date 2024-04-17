@@ -9,9 +9,9 @@ function Nakamais() {
     const images = [Burti, Vestibils, Kampuss];
     
     return (
-        <div className="hero-container">
+        <div className="next-container">
            
-            <div className="hero-gallery">
+            <div className="next-gallery">
                 {images.map((image, index) => (
                     <img
                         key={index}

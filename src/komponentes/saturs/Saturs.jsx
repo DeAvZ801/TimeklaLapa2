@@ -1,14 +1,14 @@
 import React from "react";
-import RTUImage from "../../media/RTU.webp"; 
+import RTUattels from "../../media/RTU.webp"; 
 import "./saturs.css";
 
 function Saturs() {
     return (
-        <div className="content__container">
+        <div className="saturs__container">
             <div className="top__container">
-                <figure className="image__container">
+                <figure className="attels__container">
                     <img
-                        src={RTUImage}
+                        src={RTUattels}
                         alt="RTU - Rīgas Tehniskā universitāte"
                         loading="lazy"
                     />
