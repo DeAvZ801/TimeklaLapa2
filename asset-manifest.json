@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DeAvZ801/TimeklaLapa2/static/css/main.66846118.css",
+    "main.js": "/DeAvZ801/TimeklaLapa2/static/js/main.4d4aeba4.js",
+    "static/media/rtuvid.mp4": "/DeAvZ801/TimeklaLapa2/static/media/rtuvid.e36ee604b45eb2a811ad.mp4",
+    "static/media/Burti.webp": "/DeAvZ801/TimeklaLapa2/static/media/Burti.b8dc7df940700fccfdb6.webp",
+    "static/media/Kampuss.webp": "/DeAvZ801/TimeklaLapa2/static/media/Kampuss.ed3e0018ca6517695af7.webp",
+    "static/media/Vestibils.webp": "/DeAvZ801/TimeklaLapa2/static/media/Vestibils.4aed9a5b1f94029abd89.webp",
+    "static/media/elinagailesarkane.webp": "/DeAvZ801/TimeklaLapa2/static/media/elinagailesarkane.23022a39070fa641e5ea.webp",
+    "static/media/gatisbazbauers.webp": "/DeAvZ801/TimeklaLapa2/static/media/gatisbazbauers.d97294ec8f4fd760fc55.webp",
+    "static/media/pamatstudijas.webp": "/DeAvZ801/TimeklaLapa2/static/media/pamatstudijas.1293f1e7ff4577c1b64e.webp",
+    "static/media/arturszeps.webp": "/DeAvZ801/TimeklaLapa2/static/media/arturszeps.7923d6928ba75f009d6b.webp",
+    "static/media/juhnatalis.webp": "/DeAvZ801/TimeklaLapa2/static/media/juhnatalis.5929ee4634f60c893926.webp",
+    "static/media/RTU.webp": "/DeAvZ801/TimeklaLapa2/static/media/RTU.002b6117b533d585f053.webp",
+    "static/media/svg.svg": "/DeAvZ801/TimeklaLapa2/static/media/svg.1d4f7564d7a55456fb145f46fe1e633b.svg",
+    "index.html": "/DeAvZ801/TimeklaLapa2/index.html",
+    "main.66846118.css.map": "/DeAvZ801/TimeklaLapa2/static/css/main.66846118.css.map",
+    "main.4d4aeba4.js.map": "/DeAvZ801/TimeklaLapa2/static/js/main.4d4aeba4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66846118.css",
+    "static/js/main.4d4aeba4.js"
+  ]
+}
